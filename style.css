@@ -35,14 +35,9 @@ li {
   color: #f9f8ff;
 }
 
-.header,
-.footer {
+header,
+footer {
   background-color: white;
-}
-
-.header a:hover,
-.footer a:hover {
-  opacity: 0.5;
 }
 
 .cta {
@@ -56,11 +51,11 @@ li {
   text-decoration: none;
 }
 
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
 .about-content {
   border-right: 1px solid #e886b5;
   border-bottom: 1px solid #e886b5;
-}
-
-.lien-icone:hover {
-  opacity: 0.5;
 }
